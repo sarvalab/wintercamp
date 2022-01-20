@@ -1,0 +1,22 @@
+int led=6;
+int led2=7;
+int led3=8;
+
+void setup() {
+pinMode(6,OUTPUT);
+pinMode(7,OUTPUT);
+pinMode(8,OUTPUT);
+}
+
+void loop(){
+digitalWrite(6,HIGH);
+delay(500);
+digitalWrite(6,LOW);
+digitalWrite(7,HIGH);
+delay(1000);
+digitalWrite(7,LOW);
+digitalWrite(8,HIGH);
+delay(1500);
+digitalWrite(8,LOW);
+delay(2000);
+}
